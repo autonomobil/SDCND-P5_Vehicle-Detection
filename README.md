@@ -54,7 +54,7 @@ and
 
 [![Results using YOLOv2](https://img.youtube.com/vi/6v--_ULavII/0.jpg)](https://www.youtube.com/watch?v=6v--_ULavII)
 
-In the end both methods were able to reliably and precisely detect the vehicles in front of the car. The **Deep Learning** approach enables almost **real time** detection and tracking with around **15-20 fps** on the used machine (1060 6GB GPU). This document describes my approach and implemented pipeline. The code can be found in the corresponding Jupyter Notebooks for the [classic approach](SDCND-P5_Vehicle-Detection.ipynb) and [YOLOv2](SDCND-P5_Vehicle-Detection_YOLO.ipynb).
+In the end both methods were able to detect the vehicles in front of the car, especially the Deep Learning method produec realiably results. The **Deep Learning** approach enables almost **real time** detection and tracking with around **15-20 fps** on the used machine (1060 6GB GPU). This document describes my approach and implemented pipeline. The code can be found in the corresponding Jupyter Notebooks for the [classic approach](SDCND-P5_Vehicle-Detection.ipynb) and [YOLOv2](SDCND-P5_Vehicle-Detection_YOLO.ipynb).
 
 ---
 ## Detailed explanation of the pipeline of the classic approach
