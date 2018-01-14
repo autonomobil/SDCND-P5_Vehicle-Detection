@@ -7,3 +7,4 @@ video_images2
 summary
 .ipynb_checkpoints
 YOLO
+*.db
