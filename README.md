@@ -44,7 +44,7 @@ Detect vehicles in a video recorded on a highway.
 **Results (Youtube Links):**
 classic approach:
 
-[![Results using classic approach](https://img.youtube.com/vi/p1IDWgE1RhI/0.jpg)](https://www.youtube.com/watch?v=p1IDWgE1RhI)
+[![Results using classic approach](https://img.youtube.com/vi/yzNtLwBol6k/0.jpg)](https://www.youtube.com/watch?v=yzNtLwBol6k)
 
 YOLOv2:
 
