@@ -3,7 +3,6 @@ examples
 features*
 *.p
 *.mp4
-video_images2
 summary
 .ipynb_checkpoints
 YOLO
