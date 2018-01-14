@@ -35,7 +35,7 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 **Goal:**
-  * Detect vehicles in a video recorded on a highway
+Detect vehicles in a video recorded on a highway.
 
 **Chosen methods:**  
   1. Classic approach with tools from classic computer vision and machine learning (mainly [HOG](http://scikit-image.org/docs/dev/auto_examples/features_detection/plot_hog.html) & [Support Vector Machines](http://scikit-learn.org/stable/modules/svm.html))
@@ -43,11 +43,15 @@
 
 **Results (Youtube Links):**
 classic approach:
+
 [![Results using classic approach](https://img.youtube.com/vi/p1IDWgE1RhI/0.jpg)](https://www.youtube.com/watch?v=p1IDWgE1RhI)
 
 YOLOv2:
+
 [![Results using YOLOv2](https://img.youtube.com/vi/p1IDWgE1RhI/0.jpg)](https://www.youtube.com/watch?v=p1IDWgE1RhI)
+
 and
+
 [![Results using YOLOv2](https://img.youtube.com/vi/6v--_ULavII/0.jpg)](https://www.youtube.com/watch?v=6v--_ULavII)
 
 In the end both methods were able to reliably and precisely detect the vehicles in front of the car. The **Deep Learning** approach enables almost **real time** detection and tracking with around **15-20 fps** on the used machine (1060 6GB GPU). This document describes my approach and implemented pipeline. The code can be found in the corresponding Jupyter Notebooks for the [classic approach](SDCND-P5_Vehicle-Detection.ipynb) and [YOLOv2](SDCND-P5_Vehicle-Detection_YOLO.ipynb).
