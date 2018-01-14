@@ -235,7 +235,7 @@ The image below shows the used region of interest and 3 different scales, which 
 ![img15]
 
 ##### 4.2 Heatmap (False positive rejection)
-Next a algorithm/class was implemented to keep a history of a variable amount of frames to only draw bounding boxes when the detection was validated over a few frames. This was done to reject false positives in the video stream. Therefore the concept of heatmap and thresholding was chosen. See class ``Heatmap`` for details.
+Next a algorithm/class was implemented to keep a history of a variable amount of frames to only draw bounding boxes when the detection was validated over a few frames. This was done to reject false positives in the video stream. Therefore the concept of heatmap and thresholding was chosen. Also a blur filter was applied to smoothen the results. See class ``Heatmap`` for details.
 
 A result of this algorithm is shown below:
 
