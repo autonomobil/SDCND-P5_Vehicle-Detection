@@ -1,0 +1,45 @@
+Parsing ./cfg/yolo-voc.cfg
+Parsing cfg/yolo-voc.cfg
+Loading bin/yolo-voc.weights ...
+Successfully identified 202704260 bytes
+Finished in 0.032503366470336914s
+Model has a VOC model name, loading VOC labels.
+
+Building net ...
+Source | Train? | Layer description                | Output size
+-------+--------+----------------------------------+---------------
+       |        | input                            | (?, 416, 416, 3)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 416, 416, 32)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 208, 208, 32)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 208, 208, 64)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 104, 104, 64)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 104, 104, 128)
+ Load  |  Yep!  | conv 1x1p0_1  +bnorm  leaky      | (?, 104, 104, 64)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 104, 104, 128)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 52, 52, 128)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 52, 52, 256)
+ Load  |  Yep!  | conv 1x1p0_1  +bnorm  leaky      | (?, 52, 52, 128)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 52, 52, 256)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 26, 26, 256)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 26, 26, 512)
+ Load  |  Yep!  | conv 1x1p0_1  +bnorm  leaky      | (?, 26, 26, 256)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 26, 26, 512)
+ Load  |  Yep!  | conv 1x1p0_1  +bnorm  leaky      | (?, 26, 26, 256)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 26, 26, 512)
+ Load  |  Yep!  | maxp 2x2p0_2                     | (?, 13, 13, 512)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 1024)
+ Load  |  Yep!  | conv 1x1p0_1  +bnorm  leaky      | (?, 13, 13, 512)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 1024)
+ Load  |  Yep!  | conv 1x1p0_1  +bnorm  leaky      | (?, 13, 13, 512)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 1024)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 1024)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 1024)
+ Load  |  Yep!  | concat [16]                      | (?, 26, 26, 512)
+ Load  |  Yep!  | conv 1x1p0_1  +bnorm  leaky      | (?, 26, 26, 64)
+ Load  |  Yep!  | local flatten 2x2                | (?, 13, 13, 256)
+ Load  |  Yep!  | concat [27, 24]                  | (?, 13, 13, 1280)
+ Load  |  Yep!  | conv 3x3p1_1  +bnorm  leaky      | (?, 13, 13, 1024)
+ Load  |  Yep!  | conv 1x1p0_1    linear           | (?, 13, 13, 125)
+-------+--------+----------------------------------+---------------
+GPU mode with 0.7 usage
+Finished in 18.432319164276123s
